@@ -1,7 +1,11 @@
 body{
   font-size: 15pt;
+  background-color: black;
+  color: white;
 }
-
+a{
+    color: yellow;
+}
 .h11{
     animation: h11 5s infinite;
 }
@@ -17,5 +21,30 @@ body{
     }
     50%{
         color: gray;
+    }
+}
+.vhunculeimgclass{
+     animation: vh 5s infinite;
+}
+
+@keyframes vh {
+    0%{
+        height: 100;
+    }
+
+    10%{
+        height: 300;
+    }
+
+    50%{
+        height: 500;
+    }
+
+    70%{
+         height: 600;
+    }
+ 
+    100%{
+         heights: 700%;
     }
 }
